@@ -42,8 +42,8 @@ export default function Peliculas() {
     }
 
     const onEliminar = async(id)=>{
-       await service.delete(id)
-       loadGrid()
+    await service.delete(id)
+    loadGrid()
     }
 
 

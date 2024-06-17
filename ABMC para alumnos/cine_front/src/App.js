@@ -5,7 +5,7 @@ import Peliculas from './components/Peliculas';
 function App() {
   return (
     <div className="container">
-     <Peliculas></Peliculas>
+    <Peliculas></Peliculas>
     </div>
   );
 }

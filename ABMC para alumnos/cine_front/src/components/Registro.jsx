@@ -10,7 +10,7 @@ export default function Registro({ onGuardar, onCancelar }) {
         onCancelar()
     }
     const onAceptar = (item) => {
-       onGuardar(item)
+    onGuardar(item)
     }
 
 
