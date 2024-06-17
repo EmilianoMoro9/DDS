@@ -18,10 +18,10 @@ async function saveReserva(reserva){
     const data = await res.json()
     return data
 }
-const deleteReserva = async (id) => {
+/*const deleteReserva = async (id) => {
     await fetch(`${URL}/${id}`, {
         method: 'DELETE',
     })
-};
+};*/
 
 export default {getReservas, saveReserva, deleteReserva}

@@ -33,10 +33,10 @@ function Registro() {
         setAction('R');
     }
 
-    const onEliminar = async (id) => {
-        await reservas.deleteReserva(id);
-        await loadData();
-    };
+    //const onEliminar = async (id) => {
+    //   await reservas.deleteReserva(id);
+    //    await loadData();
+    //};
 
     return (
         <div className='container_app'>
