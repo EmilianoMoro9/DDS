@@ -7,7 +7,7 @@ async function getReservas(){
 }
 
 async function saveReserva(reserva){
-  
+
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -18,5 +18,10 @@ async function saveReserva(reserva){
     const data = await res.json()
     return data
 }
+const deleteReserva = async (id) => {
+    await fetch(`${URL}/${id}`, {
+        method: 'DELETE',
+    })
+};
 
-export default {getReservas, saveReserva}
+export default {getReservas, saveReserva, deleteReserva}
